@@ -5,6 +5,191 @@
     <title>LOGIN</title>
     <link rel="stylesheet" href="login.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        /* style untuk contains form */
+.login-contains {
+    width: 30%;
+    height: 90%;
+    background-color: aliceblue;
+    border: 1px;
+    border-color: rgb(173, 181, 189);
+    border-style: solid;
+    position: absolute;
+    top: 4%;
+    margin-left: 35%;
+    border-radius: 10%;
+}
+
+
+/* style untuk form */
+.login-form {
+    width: 80%;
+    display: grid;
+    margin: 30px;
+
+
+}
+
+/* style untuk img  */
+.login-form-icon {
+    position: relative;
+    margin-left: 50%;
+    height: 100%;
+    width: 13%;
+}
+
+/* style untuk title form */
+.login-form-title {
+    position: relative;
+    margin-left: 45%;
+    font-size: x-large;
+    border-radius: 45%;
+}
+
+/* style untuk login input text */
+.login-input-text {
+    border-radius: 20px;
+    padding: 2%;
+}
+.login-input-text-failed {
+    border-color: red;
+}
+
+.login-input-captha {
+    border-radius: 20px;
+    margin-right: 60%;
+    padding: 2%;
+}
+
+/* style untuk button login */
+.login-button {
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 3%;
+
+}
+
+hr {
+    size: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:600px) and (min-height:329px) and (orientation:landscape) {
+    .login-input-text {
+        width: 75%;
+        margin-left: -10%;
+        margin-top: -5px;
+    }
+
+    .login-form-title {
+        margin-left: 15%;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .login-form-icon {
+        margin-left: 25%;
+    }
+
+    .login-button {
+        width: 50%;
+    }
+
+    hr {
+        width: 100%;
+        margin-left: -10%;
+    }
+
+    .login-input-captha {
+        margin-left: -10%;
+        width: 50%;
+    }
+
+    .login-form-help {
+        margin-bottom: 5px;
+    }
+
+}
+
+@media only screen and (min-width:600px) and (max-width:1000px) and (orientation:landscape) {
+    .login-form-icon {
+        margin-left: 45%;
+    }
+
+    .login-form-title {
+        margin-left: 40%;
+        margin-bottom: 15px;
+
+    }
+
+    .login-input-text {
+
+        width: 98%;
+    }
+
+    .login-button {
+        width: 95%;
+
+    }
+
+    .login-contains {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .login-form-help {
+        margin-top: 1px;
+    }
+}
+
+@media only screen and (orientation:portrait) and (max-width:768px) {
+    .login-contains {
+        width: 75%;
+        margin-left: 10%;
+    }
+
+    .login-form-icon {
+        margin-left: 40%;
+    }
+
+    .login-form-title {
+        margin-left: 35%;
+    }
+
+    .login-input-text {
+        margin-left: -4%;
+        width: 100%;
+    }
+
+    .login-input-captha {
+        margin-left: -4%;
+    }
+
+    .login-button {
+        width: 100%;
+        margin-left: -4%;
+    }
+}
+
+
+/* screen tablet */
+@media only screen and (max-width: 768px) and (max-height:640px) and (orientation:landscape){
+    .login-contains {
+        height: 100%;
+    }
+}
+    </style>
 </head>
 
 <body>
